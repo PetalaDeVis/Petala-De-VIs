@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petala de Vis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #f8c471;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #d35400;
+        }
+        p {
+            color: #34495e;
+            font-size: 1.2em;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #f8c471;
+            text-align: center;
+            padding: 10px;
+        }
+        .schedule {
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Petala de Vis</h1>
+</header>
+
+<section>
+    <p>Petala de Vis este locul unde natura prinde viață prin aranjamente florale unice, create cu pasiune și atenție la detalii. 
+    Fiecare buchet spune o poveste, îmbinând culorile și parfumul florilor pentru a aduce frumusețea naturii mai aproape de tine. 
+    De la ocazii speciale la momente de zi cu zi, florile noastre aduc un strop de magie în viața ta. Alege <strong>Petala de Vis</strong> pentru aranjamente florale deosebite, 
+    care reflectă eleganța și rafinamentul naturii.</p>
+
+    <div class="schedule">
+        <h2>Program de lucru</h2>
+        <p><strong>Miercuri:</strong> 14:00 - 17:30</p>
+        <p><strong>Luni, Marți, Joi, Vineri, Sâmbătă, Duminică:</strong> Închis</p>
+    </div>
+
+    <div class="gallery">
+        <h2>Galerie de buchete</h2>
+        <!-- Aici poți adăuga imagini cu buchetele tale -->
+        <img src="buchet1.jpg" alt="Buchet 1">
+        <img src="buchet2.jpg" alt="Buchet 2">
+        <img src="buchet3.jpg" alt="Buchet 3">
+        <!-- Adaugă mai multe imagini aici -->
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Petala de Vis. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
